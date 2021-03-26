@@ -1,0 +1,55 @@
+h1 {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 4em;
+}
+
+.hide {
+  display: none !important;
+}
+
+button {
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em !important;
+    box-shadow: none !important;
+}  
+
+@media (max-width: 770px){
+    h1 {
+        font-family: 'DotGothic16', sans-serif;
+        font-size: 1.5em;
+    }
+    button {
+        font-family: 'Russo One', sans-serif;
+        font-size: 0.75em !important;
+
+    }  
+    ul {
+        font-size: 0.75em !important;
+
+    }
+}
+@media (max-width:470px){
+    h1 {
+        font-family: 'DotGothic16', sans-serif;
+        font-size: 1.5em;
+    }
+    button {
+        font-family: 'Russo One', sans-serif;
+        font-size: 0.3em !important;
+
+    }  
+    ul {
+        font-size: 0.3em !important;
+    } 
+}
+#savedColors:hover {
+    background-color: transparent !important;
+}
+
+#savedColors:focus {
+    box-shadow: none !important;
+}
+
+.hovering:hover {
+    cursor: pointer;
+}
